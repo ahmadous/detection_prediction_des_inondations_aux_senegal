@@ -69,3 +69,12 @@ __pycache__/
 *.tmp
 *.bak
 .DS_Store
+
+# Données météo lourdes (régénérables via les scripts fetch_*.py)
+flood_api/donnees/
+flood_api/donnees_extra/
+flood_api/donnees_previous_runs/
+flood_api/donnees_forecast/
+flood_api/rf_forecast_results/
+# Environnement virtuel local
+.venv_rf/
